@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "7c131cb95179c99957f6b2e9ca51ef92bf511369e869ba60d0d59e846237ba44"
+build_start_time: [1672287924, 368671894]
+build_end_time: [1672287929, 168589115]
+inputs:
+  "/Users/buyrak/FlutterProjects/PaparaClone/macos/Flutter/GeneratedPluginRegistrant.swift": [1672287915, 749829292]
+  "/Users/buyrak/FlutterProjects/PaparaClone/macos/Runner/AppDelegate.swift": [1671141040, 0]
+  "/Users/buyrak/FlutterProjects/PaparaClone/macos/Runner/MainFlutterWindow.swift": [1671141040, 0]
