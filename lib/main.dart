@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:papara_clone/login_page.dart';
 import 'package:papara_clone/splash_page.dart';
 
 void main() => runApp(const MyApp());
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         // ignore: prefer_const_constructors
         body: SplashScreen()
-      ),
+      )
     );
   }
 }
