@@ -13,7 +13,7 @@ design and coding by me
 <hr>
 <div style="float:center">
   <h4> In app images </h4>
-<img src="https://github.com/BUYRAK/PaparaClone/screenshots/splash-page.jpg">
-<img src="https://github.com/BUYRAK/PaparaClone/screenshots/welcome-page.jpg">
-<img src="https://github.com/BUYRAK/PaparaClone/screenshots/login-page.jpg">
+<img src="https://github.com/BUYRAK/PaparaClone/screenshots/splash-page.png">
+<img src="https://github.com/BUYRAK/PaparaClone/screenshots/welcome-page.png">
+<img src="https://github.com/BUYRAK/PaparaClone/screenshots/login-page.png">
 <div>
