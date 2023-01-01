@@ -1,7 +1,8 @@
+import 'dart:ffi';
 import 'dart:math';
-import 'dart:ui';
 
 import 'package:flutter/material.dart';
+
 
 
 class LoginApp extends StatefulWidget {
@@ -12,104 +13,184 @@ class LoginApp extends StatefulWidget {
 }
 
 class _LoginAppState extends State<LoginApp> {
-  List<String> images = [
-    "assets/img/login-image-1.png",
-    "assets/img/login-image-2.png"
-  ];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        elevation: 0,
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back_ios_new_outlined),
+          color: Colors.black,
+          onPressed: () { },
+        ),
+        backgroundColor: Colors.white
+      ), 
       body: SafeArea(
         child: 
-        Column(
-          children: [
-            Center(child: Image.asset('assets/img/papara_logo.png', width: 200)),
-            Text(
-                  "Işık hızında, ücretsiz para gönder.",
+        Center(
+          child: Column(
+            children: [
+              Container(
+                child: Text(
+                  "Giriş Yap",
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    color: Colors.black, 
-                    fontSize: 23,
-                    fontWeight: FontWeight.bold,
-                    ),
-                ),
-            Padding(
-              padding: const EdgeInsets.only(top: 150),
-              child: SizedBox( 
-                height: 250,
-                width: 250,
-                child: PageView.builder(
-                  itemCount: images.length,
-                  itemBuilder: (context, index) {
-                    return SizedBox(
-                      child: Image.asset(
-                        images[index],
-                        fit: BoxFit.cover
-                        ),
-                    );
-                  },
-                ),
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.only(top: 50),
-              child: Text(
-                "Dilediğin kişinin Papara hesabına veya IBAN'ına 7/24 ücretsiz para gönder. Anında para iste. Düzenli ödemelerin için para transferi talimatı ver.",
-                textAlign: TextAlign.center,
-                style: TextStyle(color: Colors.grey[500], fontSize: 17),
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.only(top: 20),
-              child: Container(
-                width: 400,
-                height: 60,
-                child: OutlinedButton(
-                  onPressed: () {},
-                  style: OutlinedButton.styleFrom(
-                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-                    foregroundColor: Colors.black,
-                    side: BorderSide(
-                      color: Colors.black
-                    )
+                    fontSize: 26,
+                    fontWeight: FontWeight.bold
                   ),
-                  child: const Text("Giriş Yap"),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(top: 20),
+                child: Container(
+                  child: Text(
+                    "E-posta adresi, cep numarası ya da Apple, Google, Facebook hesaplarından biriyle giriş yap.",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Colors.grey[600],
+                      fontSize: 14
+                    ),
+                  ),
+                  width: 400,
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 20),
+                child: TextField(
+                  decoration: InputDecoration(
+                    enabledBorder: OutlineInputBorder(
+                      borderSide: BorderSide(
+                        width: 1,
+                        color: Color.fromARGB(255, 146, 146, 146)
+                      )
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(10),
+                      borderSide: BorderSide(
+                        width: 1,
+                        color: Color.fromARGB(255, 146, 146, 146)
+                      )  
+                    ),
+                    hintText: "E-posta adresi ya da cep numarası",
+                    hintStyle: TextStyle(color: Colors.grey[400]),
+                  ),
+                  cursorColor: Colors.purple,
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(top: 250),
+                child: Container(
+                  width: 400,
+                  height: 60,
+                  child: TextButton(
+                    onPressed: () {},
+                    style: TextButton.styleFrom(
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                      foregroundColor: Colors.white,
+                      side: BorderSide(
+                        color: Colors.purple
+                      ),
+                      backgroundColor: Colors.purple
+                    ),                
+                    child: Text(
+                      "Devam Et",
+                      style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                    ),
+                  ),
+                ),
+              ),
+             Padding(
+               padding: const EdgeInsets.only(top: 10),
+               child: Row(
+                children: <Widget>[
+                  Expanded(
+                    child: Divider(
+                        indent: 20,
+                        endIndent: 20,
+                        color: Colors.grey,
+                      )
+                    ),       
+                  Text("ya da"),        
+                  Expanded(
+                    child: Divider(
+                      indent: 20,
+                      endIndent: 20,
+                      color: Colors.grey,
+                      )
+                    ),
+                  ]
+                ),
+              ),
+            Padding(
+              padding: const EdgeInsets.only(top: 10),
+              child: Directionality(
+                textDirection: TextDirection.rtl,
+                child: Container(
+                  height: 60,
+                  width: 400,
+                  child: ElevatedButton(
+                  onPressed: () {},
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Center(
+                        child: Text(
+                          "Apple ile Giriş Yap",
+                          style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                          textAlign: TextAlign.center,
+                        ),
+                      ),
+                      SizedBox(
+                        width: 20,
+                      ),
+                      Icon( 
+                        Icons.apple,
+                        size: 26,
+                      ),
+                    ],
+                  ),
+                  style: ElevatedButton.styleFrom(backgroundColor: Colors.black),
+                  ),
                 ),
               ),
             ),
             Padding(
               padding: const EdgeInsets.only(top: 10),
-              child: Container(
-                width: 400,
-                height: 60,
-                child: OutlinedButton(
+              child: Directionality(
+                textDirection: TextDirection.rtl,
+                child: Container(
+                  height: 60,
+                  width: 400,
+                  child: ElevatedButton(
                   onPressed: () {},
-                  style: OutlinedButton.styleFrom(
-                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-                    foregroundColor: Colors.white,
-                    backgroundColor: Colors.purple,
-                    side: BorderSide(
-                      color: Colors.purple,
-                    )
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Center(
+                        child: Text(
+                          "Facebook ile Giriş Yap",
+                          style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                          textAlign: TextAlign.center,
+                        ),
+                      ),
+                      SizedBox(
+                        width: 20,
+                      ),
+                      Icon( 
+                        Icons.facebook_outlined,
+                        size: 26,
+                      ),
+                    ],
                   ),
-                  child: const Text("Hesap Aç"),
+                  style: ElevatedButton.styleFrom(backgroundColor: Colors.blue),
+                  ),
                 ),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(top: 60),
-              child: InkWell(
-                child: Text(
-                  "Güvenlik Bildirgesi",
-                  style: TextStyle(color: Colors.purple[600]),
-                ),
-                onTap: () {},
-              ),
-            )
-          ]
+            ],
+          ),
         ),
-      )
+      ),
     );
   }
 }
