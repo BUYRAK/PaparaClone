@@ -1,16 +1,19 @@
-# papara_clone
+# Papara Clone
+Papara Clone UI - Flutter
 
-A new Flutter project.
+IOS Papara Clone App With Flutter
+The project will be loaded step by step.
+design and coding by me
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<h3>Using Libraries<h3>
+<hr>
+  <a href="https://material.io/" target="_blank">Material Design</a>
+<hr>
+<div style="float:center">
+  <h4> In app images </h4>
+<img src="https://github.com/BUYRAK/PaparaClone/screenshots/splash-page.jpg">
+<img src="https://github.com/BUYRAK/PaparaClone/screenshots/welcome-page.jpg">
+<img src="https://github.com/BUYRAK/PaparaClone/screenshots/login-page.jpg">
+<div>
