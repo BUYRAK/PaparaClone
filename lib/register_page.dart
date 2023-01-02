@@ -2,19 +2,20 @@ import 'dart:ffi';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:papara_clone/help_page.dart';
 import 'package:papara_clone/welcome_page.dart';
 
+import 'help_page.dart';
 
 
-class LoginApp extends StatefulWidget {
-  const LoginApp({super.key});
+
+class RegisterApp extends StatefulWidget {
+  const RegisterApp({super.key});
 
   @override
-  State<LoginApp> createState() => _LoginAppState();
+  State<RegisterApp> createState() => _RegisterAppState();
 }
 
-class _LoginAppState extends State<LoginApp> {
+class _RegisterAppState extends State<RegisterApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -39,7 +40,7 @@ class _LoginAppState extends State<LoginApp> {
             children: [
               Container(
                 child: Text(
-                  "Giriş Yap",
+                  "Hesap aç",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 26,
@@ -51,7 +52,7 @@ class _LoginAppState extends State<LoginApp> {
                 padding: const EdgeInsets.only(top: 20),
                 child: Container(
                   child: Text(
-                    "E-posta adresi, cep numarası ya da Apple, Google, Facebook hesaplarından biriyle giriş yap.",
+                    "Cep telefonu numaranla ya da Apple, Google, Facebook hesaplarından biriyle hesap aç.",
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Colors.grey[600],
@@ -78,7 +79,7 @@ class _LoginAppState extends State<LoginApp> {
                         color: Color.fromARGB(255, 146, 146, 146)
                       )  
                     ),
-                    hintText: "E-posta adresi ya da cep numarası",
+                    hintText: "Cep telefonu numarası",
                     hintStyle: TextStyle(color: Colors.grey[400]),
                   ),
                   cursorColor: Colors.purple,
@@ -142,7 +143,7 @@ class _LoginAppState extends State<LoginApp> {
                     children: [
                       Center(
                         child: Text(
-                          "Apple ile Giriş Yap",
+                          "Apple ile Hesap Aç",
                           style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                           textAlign: TextAlign.center,
                         ),
@@ -175,7 +176,7 @@ class _LoginAppState extends State<LoginApp> {
                     children: [
                       Center(
                         child: Text(
-                          "Facebook ile Giriş Yap",
+                          "Facebook ile Hesap Aç",
                           style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                           textAlign: TextAlign.center,
                         ),
@@ -208,7 +209,7 @@ class _LoginAppState extends State<LoginApp> {
                     children: [
                       Center(
                         child: Text(
-                          "Google ile Giriş Yap",
+                          "Google ile Hesap Aç",
                           style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                           textAlign: TextAlign.center,
                         ),

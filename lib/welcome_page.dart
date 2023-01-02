@@ -2,6 +2,7 @@ import 'dart:math';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:papara_clone/register_page.dart';
 import 'login_page.dart';
 
 
@@ -90,7 +91,12 @@ class _WelcomeAppState extends State<WelcomeApp> {
                 width: 400,
                 height: 60,
                 child: OutlinedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: ((context) => const RegisterApp()))
+                    );
+                  },
                   style: OutlinedButton.styleFrom(
                     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                     foregroundColor: Colors.white,
