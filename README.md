@@ -16,4 +16,6 @@ design and coding by me
 <img src="https://github.com/BUYRAK/PaparaClone/blob/master/screenshots/splash-page.png" width="250px">
 <img src="https://github.com/BUYRAK/PaparaClone/blob/master/screenshots/welcome-page.png" width="250px">
 <img src="https://github.com/BUYRAK/PaparaClone/blob/master/screenshots/login-page.png" width="250px">
+<img src="https://github.com/BUYRAK/PaparaClone/blob/master/screenshots/register-page.png" width="250px">
+<img src="https://github.com/BUYRAK/PaparaClone/blob/master/screenshots/help-page.png" width="250px">
 <div>
