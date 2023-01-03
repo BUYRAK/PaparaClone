@@ -3,6 +3,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:papara_clone/help_page.dart';
+import 'package:papara_clone/home_page.dart';
 import 'package:papara_clone/welcome_page.dart';
 
 
@@ -90,7 +91,12 @@ class _LoginAppState extends State<LoginApp> {
                   width: 400,
                   height: 60,
                   child: TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: ((context) => HomeApp()))
+                      );
+                    },
                     style: TextButton.styleFrom(
                       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                       foregroundColor: Colors.white,
