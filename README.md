@@ -10,6 +10,7 @@ design and coding by me
 <h3>Using Libraries<h3>
 <hr>
   <a href="https://material.io/" target="_blank">Material Design</a>
+Lottie Files
 <hr>
 <div style="float:center">
   <h4> In app images </h4>
