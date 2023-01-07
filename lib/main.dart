@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
     // ignore: prefer_const_constructors
     return MaterialApp(
       title: 'Material App',
+      debugShowCheckedModeBanner: false,
       // ignore: prefer_const_constructors
       home: Scaffold(
         // ignore: prefer_const_constructors
