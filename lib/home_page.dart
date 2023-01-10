@@ -13,29 +13,26 @@ class _HomeAppState extends State<HomeApp> {
     return Scaffold(
       body: Container(),
       bottomNavigationBar: BottomNavigationBar(
+        iconSize: 24,
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.home_filled),
-            label: 'Ana Sayfa',
+            label: 'Ana Sayfa'
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.qr_code),
-            label: 'QR İşlemleri',
+            label: 'QR İşlemleri'
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.compare_arrows_rounded),
-            label: 'Para Transferi',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.newspaper_outlined),
-            label: 'Ödemeler',
+            label: 'Para Transferi'
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.credit_card),
             label: 'Papara Card',
           )
         ],
-        selectedItemColor: Colors.black,
+        selectedItemColor: Colors.purple,
         unselectedItemColor: Colors.black,
         showSelectedLabels: true,
         showUnselectedLabels: true,

@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       // ignore: prefer_const_constructors
       home: Scaffold(
         // ignore: prefer_const_constructors
-        body: SplashScreen()
+        body: SplashScreen(),
       )
     );
   }
