@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		zFwGsoAGNxiIVzERGk3g5YJ6RRI=
+		hXtzJW2CWxi43UmT7YVgsnPLLVc=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -18,7 +18,31 @@
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		JjuQczvy4TB8hmPbsyD1ZVskNSo=
+		p3tY4fR4ddNAfWcmc8LWDFb84cM=
+		</data>
+		<key>flutter_assets/assets/icons/credit-card.png</key>
+		<data>
+		KFWdnlxuwCeHEewW3Esi97EiWz0=
+		</data>
+		<key>flutter_assets/assets/icons/home.png</key>
+		<data>
+		55k9HcrjOi6fWqvfG2BBmMBfOmc=
+		</data>
+		<key>flutter_assets/assets/icons/papara-logo.png</key>
+		<data>
+		O70an+CR2UYQoVTk18zrw48fQuc=
+		</data>
+		<key>flutter_assets/assets/icons/payments.png</key>
+		<data>
+		E7n/KSvJpdwK90KYgt3DkLOyh5w=
+		</data>
+		<key>flutter_assets/assets/icons/qr-code.png</key>
+		<data>
+		2L6cx132nEudliQFbxowYEcYuZ8=
+		</data>
+		<key>flutter_assets/assets/icons/send.png</key>
+		<data>
+		488oK3n4npDFMR59AJ+eF0kVzhE=
 		</data>
 		<key>flutter_assets/assets/img/.DS_Store</key>
 		<data>
@@ -38,23 +62,23 @@
 		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
-		mcmNrC70e/OT89y/p5EgxkVsLrs=
+		/CUoTuPQqqdexfyOT9lpJhV+2MQ=
 		</data>
 		<key>flutter_assets/isolate_snapshot_data</key>
 		<data>
-		jtyHs+6eMVt00swwjGovNjvYFno=
+		xbo3iIc8fTnuE5W4XE0VFw6QIBI=
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		Afji9eaDtm99Vn1Xf66ktcAuABQ=
+		ogzovthmdTh210XmL/wf8mtfiqU=
 		</data>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
-		cdh55RsFPiX7lfOjosLjlFqJuX8=
+		Z/DhfUUahgFGsthszkW1YubfdU8=
 		</data>
 		<key>flutter_assets/vm_snapshot_data</key>
 		<data>
-		1nKxBmP6cKJocBfr1M7WcVTuBUE=
+		bjcE383nCc8U85vWBdZ80X32NVA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -63,7 +87,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6OcNr8mgjxtJs4b1IBx7QzDbvzQRd/DSEjNamOHmHns=
+			XbN6V2ROTkKC5AkF9JYRyGgaycyK107uc0OFETD/ypE=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -77,7 +101,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bO8f3Si6/y9vYh/u4b85YWQIgE5rPb++GQBum66MFmo=
+			qwY/w9SskNG8Z0ouo/Jz2J6t6GcEFbbAM/1a5fg02rg=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/icons/credit-card.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RLZZjwOH0u6XREZIs8qolWk6iRsTRjbpBiEIXTeowPo=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/icons/home.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			URPCHxFjur99iSgHSxEc/jn2ya5DED35sRW71PzatgY=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/icons/papara-logo.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gA6EGdeg/TP7YJLveqMViWPUbFQODBIRzOSkdxw1u7U=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/icons/payments.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2rlgtZGgfjM7MogfOh3Ir3PNzBDYyBsM4J1pHt+EEjQ=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/icons/qr-code.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9mmmvkx1DU5NyYCLN+cdkM7Usl1knIqxW1VhenpJ3jU=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/icons/send.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NAec+EA1DBw7yI8/BhE76LBbouDbJ9Tb4O6OQI28ibA=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/img/login-image-1.png</key>
@@ -105,35 +171,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BugRRJlkJdABYrpi+ZDcvZjsh+EPQ4Uf2ST65b83vlc=
+			2YZbZxoJ1oPROoYwidiCXg9ho3aWzl19RIvIAjqmJFM=
 			</data>
 		</dict>
 		<key>flutter_assets/isolate_snapshot_data</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zfsu+Dum4LmJ5AFKFoims+wu7bSB6XZQxvatgr9qU+8=
+			76aJUrz/yLBliHLDcOlVu+tPuICHsFWS91Ovpysst2I=
 			</data>
 		</dict>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pmSOyVY5RwBju0OZAaIVN3T3NmHi7G90QeBjyRpcB2A=
+			mGr0ccEBjhxQq7h4eot73QY97qUWNuH9C31KxNTe4hU=
 			</data>
 		</dict>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zeY6hTAk2miNxBtzRkPVLNlRcGJvqeBbHoQKnLaoyic=
+			hgGex10sKxTSC95tzLdljzYd3qnntuSb96YXXaU9Nlc=
 			</data>
 		</dict>
 		<key>flutter_assets/vm_snapshot_data</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ifsROT9mhiBCDg9Fz43bRMeD+UDipbpQkmeVuQ1jRD4=
+			L69dzlyAJyxdLVGPUFBuUaiyjDwAOUWCUp3TXXm9RjY=
 			</data>
 		</dict>
 	</dict>

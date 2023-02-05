@@ -17,6 +17,7 @@ class _HelpAppState extends State<HelpApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         elevation: 0,
         leading: IconButton(
@@ -29,7 +30,7 @@ class _HelpAppState extends State<HelpApp> {
             ); 
           },
         ),
-        backgroundColor: Colors.transparent
+        backgroundColor: Colors.white
       ), 
       body: SafeArea(
         child: Column(

@@ -10,13 +10,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // ignore: prefer_const_constructors
     return MaterialApp(
-      title: 'Material App',
+      title: 'Papara',
       debugShowCheckedModeBanner: false,
       // ignore: prefer_const_constructors
       home: Scaffold(
         // ignore: prefer_const_constructors
         body: SplashScreen(),
-      )
+      ),
     );
   }
 }

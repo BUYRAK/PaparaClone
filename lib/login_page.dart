@@ -19,6 +19,7 @@ class _LoginAppState extends State<LoginApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         elevation: 0,
         leading: IconButton(
@@ -31,7 +32,7 @@ class _LoginAppState extends State<LoginApp> {
             ); 
           },
         ),
-        backgroundColor: Colors.transparent
+        backgroundColor: Colors.white
       ), 
       body: SafeArea(
         child: 
