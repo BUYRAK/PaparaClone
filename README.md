@@ -19,4 +19,5 @@ Lottie Files
 <img src="https://github.com/BUYRAK/PaparaClone/blob/master/screenshots/login-page.png" width="250px">
 <img src="https://github.com/BUYRAK/PaparaClone/blob/master/screenshots/register-page.png" width="250px">
 <img src="https://github.com/BUYRAK/PaparaClone/blob/master/screenshots/help-page.png" width="250px">
+<img src="https://github.com/BUYRAK/PaparaClone/blob/master/screenshots/home-page.png" width="250px">
 <div>
