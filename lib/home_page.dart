@@ -14,14 +14,26 @@ class _HomeAppState extends State<HomeApp> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        leading: Icon(Icons.list, color: Colors.black, size: 40,),
+        toolbarHeight: 120,
+        leading: Padding(
+          padding: const EdgeInsets.only(bottom: 60),
+          child: Icon(Icons.list, color: Colors.black, size: 40),
+        ),
         backgroundColor: Colors.white,
         elevation: 0,
         actions: [
+          Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.only(right: 85),
+                child: Image.asset('assets/icons/papara-icon.png', width: 120, height: 120),
+              ),
+            ],
+          ),
           InkWell(
             onTap: () {},
             child: Padding(
-              padding: const EdgeInsets.only(right: 15),
+              padding: const EdgeInsets.only(right: 15, bottom: 60),
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(60),
                 child: CachedNetworkImage(
@@ -38,9 +50,51 @@ class _HomeAppState extends State<HomeApp> {
       body: Container(
         child: Row(
           children: [
-            Image.asset('assets/icons/papara_single.png')
-          ],
-        ),
+          Padding(
+            padding: const EdgeInsets.only(left: 5),
+            child: OutlinedButton(
+              onPressed: () {},
+              style: ButtonStyle(
+                shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                  RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(30.0),
+                    side: BorderSide(color: Colors.grey)
+                  )
+                )
+              ),
+              child: Row(
+                children: [
+                Icon(Icons.card_giftcard_rounded, color: Colors.blue,),
+                Text("₺45", style: TextStyle(color: Colors.grey)),
+              ],
+            )),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(left: 40),
+            child: OutlinedButton(
+              onPressed: () {},
+              style: ButtonStyle(
+                shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                  RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(30.0),
+                    side: BorderSide(color: Colors.grey)
+                  )
+                )
+              ),
+              child: Row(
+                children: [
+                Text(
+                "Türk Lirası ",
+                style: TextStyle(
+                  color: Colors.grey
+                )),
+                Image.asset('assets/icons/turkey-flag.png', width: 15),
+                Text(" TL", style: TextStyle(color: Colors.grey)),
+                Icon(Icons.keyboard_arrow_down_outlined, color: Colors.grey,)
+              ],
+            )),
+          ),
+        ]),
       ),
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.white,
