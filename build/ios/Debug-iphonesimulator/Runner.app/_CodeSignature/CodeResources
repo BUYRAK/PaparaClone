@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		/hiu1PPxHm/RoF/p7tXP3JtcNgk=
+		EtzRQcmL8AhgkKUpsD73xnMduYg=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		gtUJh481ZS7cuIeRZ/D8yqGZRWs=
+		G3yxWsr8x6zAp6FknHsl5X9yNWI=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/NOTICES.Z</key>
 		<data>
-		p3tY4fR4ddNAfWcmc8LWDFb84cM=
+		dqpYCEWFMJknc/eYP9VM8CJ4LHg=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/icons/credit-card.png</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		ogzovthmdTh210XmL/wf8mtfiqU=
+		gSACXHzaQttBLNVmn0WxrqaDLpE=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
@@ -123,6 +123,18 @@
 		<key>Frameworks/App.framework/flutter_assets/vm_snapshot_data</key>
 		<data>
 		bjcE383nCc8U85vWBdZ80X32NVA=
+		</data>
+		<key>Frameworks/FMDB.framework/FMDB</key>
+		<data>
+		Y0TPnngrsF5YwcQf1p5rp6C5SaQ=
+		</data>
+		<key>Frameworks/FMDB.framework/Info.plist</key>
+		<data>
+		XPTpncKFAz23rRgsqtVHS3tEGzY=
+		</data>
+		<key>Frameworks/FMDB.framework/_CodeSignature/CodeResources</key>
+		<data>
+		l379vJ2x/OMlng5qtxHyQSz3/wU=
 		</data>
 		<key>Frameworks/Flutter.framework/Flutter</key>
 		<data>
@@ -207,6 +219,30 @@
 		<key>Frameworks/Flutter.framework/icudtl.dat</key>
 		<data>
 		iqxdhxDOeG6GKBcMhgGCL00SLGw=
+		</data>
+		<key>Frameworks/path_provider_foundation.framework/Info.plist</key>
+		<data>
+		nzkgjIUj1z8Z71lAvNaxkxBJ6zU=
+		</data>
+		<key>Frameworks/path_provider_foundation.framework/_CodeSignature/CodeResources</key>
+		<data>
+		3aHfsVd0nY6LZ/aGHWXPl4rqjN8=
+		</data>
+		<key>Frameworks/path_provider_foundation.framework/path_provider_foundation</key>
+		<data>
+		xKw0F+LLh4kAn7i7uxuYIvxd/hE=
+		</data>
+		<key>Frameworks/sqflite.framework/Info.plist</key>
+		<data>
+		XHlnZRnTS6t5fCReMgHjAA2cpRM=
+		</data>
+		<key>Frameworks/sqflite.framework/_CodeSignature/CodeResources</key>
+		<data>
+		tzE7o+tUBWtJ79dyeg3uCz9V19w=
+		</data>
+		<key>Frameworks/sqflite.framework/sqflite</key>
+		<data>
+		ZTGf8VeNaOLTFbQ8G9Xv2t5NCaE=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -293,7 +329,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jy/GzM/U3Pk02TpokXTNkhq3Bd1XM3+bBmLIMqBJBtg=
+			X7glJM9cpWH8ZVBY+fG2PZvbcH3+piZAdZcI0yvCEXM=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -307,7 +343,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8K+6Jcp6ELyfqGGf3DuhzVQAZPw76v5VUGGM3Z/wYr4=
+			8/eeMbzst+VJdHxm7VqQ+lhSRkxGMxoHQuFC0WaMx/w=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
@@ -328,7 +364,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qwY/w9SskNG8Z0ouo/Jz2J6t6GcEFbbAM/1a5fg02rg=
+			L7Nyc8CajOD/pPep1De03/4c605BBABioHSzo76v3ZI=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/icons/credit-card.png</key>
@@ -412,7 +448,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mGr0ccEBjhxQq7h4eot73QY97qUWNuH9C31KxNTe4hU=
+			Sa4dovNF7w5Ri3BXWZNTC6XbhZ2X5fk/QeOafxHvubo=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/shaders/ink_sparkle.frag</key>
@@ -427,6 +463,27 @@
 			<key>hash2</key>
 			<data>
 			L69dzlyAJyxdLVGPUFBuUaiyjDwAOUWCUp3TXXm9RjY=
+			</data>
+		</dict>
+		<key>Frameworks/FMDB.framework/FMDB</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FaoXxh7rKI5zfdQo5j5fLCaUxKCs2HTXDJ1QRfQdhlw=
+			</data>
+		</dict>
+		<key>Frameworks/FMDB.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mm8ua1oDRzLjK+xs1TVWlEUPtlkYV4QIkMHav9A5hEc=
+			</data>
+		</dict>
+		<key>Frameworks/FMDB.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			t4hlsCsIsSQgLs35++B/KORolyxUAJH+mfzq7AFyoCo=
 			</data>
 		</dict>
 		<key>Frameworks/Flutter.framework/Flutter</key>
@@ -574,6 +631,48 @@
 			<key>hash2</key>
 			<data>
 			d80FTlJMKYsTn7JmRt/E1O9oOh+k9tF0xR10Q3ZrKn4=
+			</data>
+		</dict>
+		<key>Frameworks/path_provider_foundation.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZPVYmu2cxCHSRF5e8GGcCsQSxaE41ZY8wuVXAiwm3yY=
+			</data>
+		</dict>
+		<key>Frameworks/path_provider_foundation.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RQda7i6i0srhVo3f9fr2iONBlrVesKPO6CFA8ygvSO4=
+			</data>
+		</dict>
+		<key>Frameworks/path_provider_foundation.framework/path_provider_foundation</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1P7irrKCIOYvg09khTbQKD30eLoMBr0NpW3Ky/qva4w=
+			</data>
+		</dict>
+		<key>Frameworks/sqflite.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0JNkblwLoj8LKIsxDXv50/+Ai8TWP+2NPCdOuT/KkLw=
+			</data>
+		</dict>
+		<key>Frameworks/sqflite.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2sqxNUP8WgiaB/2NeHxjQBjVZdcHO643upxHLWaLWYw=
+			</data>
+		</dict>
+		<key>Frameworks/sqflite.framework/sqflite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EJqsdYEvcZV8f6lzL2eiqGv+x13KIAPBzxXiSBx1h6U=
 			</data>
 		</dict>
 	</dict>

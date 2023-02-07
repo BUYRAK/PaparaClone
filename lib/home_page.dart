@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
 
@@ -12,11 +13,34 @@ class _HomeAppState extends State<HomeApp> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: Container(),
       appBar: AppBar(
         leading: Icon(Icons.list, color: Colors.black, size: 40,),
         backgroundColor: Colors.white,
         elevation: 0,
+        actions: [
+          InkWell(
+            onTap: () {},
+            child: Padding(
+              padding: const EdgeInsets.only(right: 15),
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(60),
+                child: CachedNetworkImage(
+                  width: 60,
+                  height: 60,
+                  fit: BoxFit.cover,
+                  imageUrl: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png',
+                ),
+              ),
+            ),
+          )
+        ],
+      ),
+      body: Container(
+        child: Row(
+          children: [
+            Image.asset('assets/icons/papara_single.png')
+          ],
+        ),
       ),
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.white,
