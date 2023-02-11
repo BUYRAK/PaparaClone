@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		Ixxub94VpXTEbCuoFMjm59AEt6Q=
+		enol1ArSlKxcZac2bc91ln8vKWg=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -48,6 +48,10 @@
 		<data>
 		488oK3n4npDFMR59AJ+eF0kVzhE=
 		</data>
+		<key>flutter_assets/assets/icons/turkey-flag.png</key>
+		<data>
+		A859LjPFahvbcSBlePhaOL+AjKU=
+		</data>
 		<key>flutter_assets/assets/img/.DS_Store</key>
 		<data>
 		kQbSXcOLlgie70kYLHP9v8wllRM=
@@ -74,7 +78,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		ZC3nSBoTQt5Rd84Nw1eIYkm8HWY=
+		yRtZhZ4bPD19RfTXHP0zGq+CZS0=
 		</data>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
@@ -91,7 +95,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c4fi4XvyWs6EAYTESEZJyQqlnZ/aoz+3HNldhAjPIFw=
+			NpbtZU9xpdLoU4z8B2jdBZtnHBdm2rFoYzu1k7Bfs5Y=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -157,6 +161,13 @@
 			NAec+EA1DBw7yI8/BhE76LBbouDbJ9Tb4O6OQI28ibA=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/icons/turkey-flag.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OC1/civSQrlfaTdIR6UCQumuckIX0BVSnCXo5+8mt54=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/img/login-image-1.png</key>
 		<dict>
 			<key>hash2</key>
@@ -196,7 +207,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xRnRmyO1EAhAgPguC5OPIY4HgC6bb6RLjpx6/kZqR/0=
+			2RGDu9wpolybjaf4pnG1mLGMRiTs7AJno/Ss+lY/efA=
 			</data>
 		</dict>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>

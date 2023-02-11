@@ -48,53 +48,75 @@ class _HomeAppState extends State<HomeApp> {
         ],
       ),
       body: Container(
-        child: Row(
+        child: Column(
           children: [
-          Padding(
-            padding: const EdgeInsets.only(left: 5),
-            child: OutlinedButton(
-              onPressed: () {},
-              style: ButtonStyle(
-                shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                  RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(30.0),
-                    side: BorderSide(color: Colors.grey)
-                  )
-                )
-              ),
-              child: Row(
-                children: [
-                Icon(Icons.card_giftcard_rounded, color: Colors.blue,),
-                Text("₺45", style: TextStyle(color: Colors.grey)),
-              ],
-            )),
-          ),
-          Padding(
-            padding: const EdgeInsets.only(left: 40),
-            child: OutlinedButton(
-              onPressed: () {},
-              style: ButtonStyle(
-                shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                  RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(30.0),
-                    side: BorderSide(color: Colors.grey)
-                  )
-                )
-              ),
-              child: Row(
-                children: [
-                Text(
-                "Türk Lirası ",
-                style: TextStyle(
-                  color: Colors.grey
+          Row(
+            children: [
+              Padding(
+                padding: const EdgeInsets.only(left: 5),
+                child: OutlinedButton(
+                  onPressed: () {},
+                  style: ButtonStyle(
+                    shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                      RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(30.0),
+                        side: BorderSide(color: Colors.grey)
+                      )
+                    )
+                  ),
+                  child: Row(
+                    children: [
+                    Icon(Icons.card_giftcard_rounded, color: Colors.blue,),
+                    Text("₺45", style: TextStyle(color: Colors.grey)),
+                  ],
                 )),
-                Image.asset('assets/icons/turkey-flag.png', width: 15),
-                Text(" TL", style: TextStyle(color: Colors.grey)),
-                Icon(Icons.keyboard_arrow_down_outlined, color: Colors.grey,)
-              ],
-            )),
+              ),
+              Padding(
+              padding: const EdgeInsets.only(left: 40, top: 0),
+              child: OutlinedButton(
+                onPressed: () {},
+                style: ButtonStyle(
+                  shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                    RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(30.0),
+                      side: BorderSide(color: Colors.grey)
+                    )
+                  ),
+                ),
+                child: Row(
+                  children: [
+                  Text("Türk Lirası ", style: TextStyle(color: Colors.grey)),
+                  Image.asset('assets/icons/turkey-flag.png', width: 15),
+                  Text(" TL", style: TextStyle(color: Colors.grey)),
+                  Icon(Icons.keyboard_arrow_down_outlined, color: Colors.grey,)
+                  ],
+                )),
+              ),
+            ],          
           ),
-        ]),
+          Row(
+            children: [
+              IconButton(
+                  icon: Image.asset('assets/icons/negative.png'),
+                  iconSize: 40,
+                  onPressed: () {},
+              ),
+              Padding(
+                padding: const EdgeInsets.only(left: 75, right: 75),
+                child: Text(
+                  "₺20,02",
+                  style: TextStyle(fontSize: 45, fontWeight: FontWeight.w800),
+                ),
+              ),
+              IconButton(
+                  icon: Image.asset('assets/icons/positive.png'),
+                  iconSize: 40,
+                  onPressed: () {},
+              ),
+            ],
+          )
+          ] 
+        ),
       ),
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.white,

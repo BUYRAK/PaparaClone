@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		+MGSDvpCeYwchZl/tiQBbkyfwJs=
+		yGzVArsxGz5/VndhTLRYPJpTG0U=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		RaJG9Km3yjqRxsCrP7x6q8dhMvM=
+		wl4P+u/XbdVXpZf5/Gmr69Nfn7I=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		Ixxub94VpXTEbCuoFMjm59AEt6Q=
+		enol1ArSlKxcZac2bc91ln8vKWg=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -96,6 +96,10 @@
 		<data>
 		488oK3n4npDFMR59AJ+eF0kVzhE=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/icons/turkey-flag.png</key>
+		<data>
+		A859LjPFahvbcSBlePhaOL+AjKU=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/img/login-image-1.png</key>
 		<data>
 		zu9fQz7Rl7Pz0WOpnqz/VuhtQso=
@@ -118,7 +122,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		ZC3nSBoTQt5Rd84Nw1eIYkm8HWY=
+		yRtZhZ4bPD19RfTXHP0zGq+CZS0=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
@@ -246,7 +250,7 @@
 		</data>
 		<key>Frameworks/sqflite.framework/sqflite</key>
 		<data>
-		StSX8e9jX7cAq98KC2Cy9eocBec=
+		9liwlJdIZz4KpIRWaW3++iExK6U=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -333,7 +337,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XFoxI8lAsAXeVczKMLCEE620sBiitZkcdsblKQo5gkk=
+			4aaZEmzqOgbbbEjBPft7KcVmTmFj/dypbI1+FlKkcAo=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -347,14 +351,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xdCwG0nzDJLrpAgM+ZXOR2fUjRFgYE+D3avqxqvbh0s=
+			5dIIGgMkZbaJHVuAE2OjrbAW10Kec8cJSk42eHbFK9Y=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c4fi4XvyWs6EAYTESEZJyQqlnZ/aoz+3HNldhAjPIFw=
+			NpbtZU9xpdLoU4z8B2jdBZtnHBdm2rFoYzu1k7Bfs5Y=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -420,6 +424,13 @@
 			NAec+EA1DBw7yI8/BhE76LBbouDbJ9Tb4O6OQI28ibA=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/icons/turkey-flag.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OC1/civSQrlfaTdIR6UCQumuckIX0BVSnCXo5+8mt54=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/img/login-image-1.png</key>
 		<dict>
 			<key>hash2</key>
@@ -459,7 +470,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xRnRmyO1EAhAgPguC5OPIY4HgC6bb6RLjpx6/kZqR/0=
+			2RGDu9wpolybjaf4pnG1mLGMRiTs7AJno/Ss+lY/efA=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/shaders/ink_sparkle.frag</key>
@@ -683,7 +694,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fDY6yTlbcLJTRhPERJ968aa4uj2+BvSYGC2eyGiUt7w=
+			vu82zepnA5n44O/yMAjVQHf5wjbNNA7J4iVDA6HF5ak=
 			</data>
 		</dict>
 	</dict>
