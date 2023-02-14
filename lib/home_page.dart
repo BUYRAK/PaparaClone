@@ -114,6 +114,28 @@ class _HomeAppState extends State<HomeApp> {
                   onPressed: () {},
               ),
             ],
+          ),
+          Row(
+            children: [
+              Padding(
+                padding: const EdgeInsets.only(left: 60, top: 10),
+                child: Card(
+                  elevation: 7,
+                  clipBehavior: Clip.hardEdge,
+                  child:
+                    SizedBox(
+                      width: 300,
+                      height: 100,
+                      child: Column(
+                        children: [
+                          Text("Profil Fotoğrafı Ekle"),
+                          Text("Fotoğraf ekleyebilirsin")
+                        ],
+                      ),
+                    ),
+                ),
+              ),
+            ],
           )
           ] 
         ),

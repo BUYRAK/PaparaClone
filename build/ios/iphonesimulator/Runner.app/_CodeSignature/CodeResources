@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		yGzVArsxGz5/VndhTLRYPJpTG0U=
+		MkcmJhrIGZAiI44ryV7U5ReIMNo=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		wl4P+u/XbdVXpZf5/Gmr69Nfn7I=
+		Qt6AbRXItk3SCIP0LTs+tVA0y5U=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		enol1ArSlKxcZac2bc91ln8vKWg=
+		7cqikJZtZLL7BQs44mK9+xxFp7M=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -76,6 +76,10 @@
 		<data>
 		55k9HcrjOi6fWqvfG2BBmMBfOmc=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/icons/negative.png</key>
+		<data>
+		adgH4+kpatn8N7JbQ/X3nVVAywY=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/icons/papara-icon.png</key>
 		<data>
 		NlTRtwoYhJFQ27VcFi6K3W3/nxY=
@@ -87,6 +91,10 @@
 		<key>Frameworks/App.framework/flutter_assets/assets/icons/payments.png</key>
 		<data>
 		E7n/KSvJpdwK90KYgt3DkLOyh5w=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/icons/positive.png</key>
+		<data>
+		4yTMz/OCWaj3mvu9hQUeLkjCtto=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/icons/qr-code.png</key>
 		<data>
@@ -122,7 +130,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		yRtZhZ4bPD19RfTXHP0zGq+CZS0=
+		TId+ack+DassLr5KvSVcgFN72fk=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
@@ -250,7 +258,7 @@
 		</data>
 		<key>Frameworks/sqflite.framework/sqflite</key>
 		<data>
-		9liwlJdIZz4KpIRWaW3++iExK6U=
+		JfK8rtN4//ayydb9N0g8tHC87lY=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -337,7 +345,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4aaZEmzqOgbbbEjBPft7KcVmTmFj/dypbI1+FlKkcAo=
+			NKECtlfaQgCSGOYHMq/8xQfdOjrDt4tlbTf/mKrQ8YM=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -351,14 +359,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5dIIGgMkZbaJHVuAE2OjrbAW10Kec8cJSk42eHbFK9Y=
+			kjO2f0LpIc8C6bOomex9VJGVy9cnxaC+sS3LkJMf6nw=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NpbtZU9xpdLoU4z8B2jdBZtnHBdm2rFoYzu1k7Bfs5Y=
+			HkdL6CaLssQwOZOT8nZO1++5h3iSXiExLmXp3uzb8ZI=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -389,6 +397,13 @@
 			URPCHxFjur99iSgHSxEc/jn2ya5DED35sRW71PzatgY=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/icons/negative.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Qf9L/hSyLA0RsTOcWKTxi5tygISFSb1Cev7XbQm8aJs=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/icons/papara-icon.png</key>
 		<dict>
 			<key>hash2</key>
@@ -408,6 +423,13 @@
 			<key>hash2</key>
 			<data>
 			2rlgtZGgfjM7MogfOh3Ir3PNzBDYyBsM4J1pHt+EEjQ=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/icons/positive.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XeE2/oD/Uxs2E73FtutJcdiY2W+MDp3CxkSiYlJTsUI=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/icons/qr-code.png</key>
@@ -470,7 +492,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2RGDu9wpolybjaf4pnG1mLGMRiTs7AJno/Ss+lY/efA=
+			HClF+wlEljzQU/tAEKFjOXLmw5JK5UGoIPZ0ZBGWTfY=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/shaders/ink_sparkle.frag</key>
@@ -694,7 +716,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vu82zepnA5n44O/yMAjVQHf5wjbNNA7J4iVDA6HF5ak=
+			mvO2XRUFVCehL9HyTnyJOKsF9V8cfMS/nP8+nZQeMyM=
 			</data>
 		</dict>
 	</dict>
