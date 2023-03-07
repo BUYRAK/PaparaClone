@@ -128,14 +128,42 @@ class _HomeAppState extends State<HomeApp> {
                       height: 100,
                       child: Column(
                         children: [
-                          Text("Profil Fotoğrafı Ekle"),
-                          Text("Fotoğraf ekleyebilirsin")
+                          Row(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.only(top: 20, right: 30, left: 20),
+                                child: Row(children: [
+                                  Image.asset('assets/icons/user.png', width: 50),
+                                  Padding(
+                                    padding: const EdgeInsets.only(right: 10, left: 10),
+                                    child: Column(children: [
+                                      Text(
+                                        "Profil Fotoğrafı Ekle",
+                                        style: TextStyle(fontWeight: FontWeight.w600, fontSize: 16),
+                                      ),
+                                      Text("Fotoğraf ekleyebilirsin"),
+                                    ],
+                                    ),
+                                  ),
+                                  Icon(Icons.arrow_forward_ios_outlined)
+                                ]
+                                ),
+                              ),
+                            ],
+                          ), 
                         ],
                       ),
                     ),
                 ),
               ),
             ],
+          ),
+          Padding(
+            padding: const EdgeInsets.only(top: 30, left: 10),
+            child: Row(children: [
+              Text("Son İşlemler", style: TextStyle(color: Colors.grey),),
+              Icon(Icons.arrow_forward_ios_outlined, size: 15, color: Colors.grey,)
+            ],),
           )
           ] 
         ),
